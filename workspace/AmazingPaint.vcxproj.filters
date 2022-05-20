@@ -5,6 +5,7 @@
     <ClCompile Include="..\AmazingPaint\MainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\AmazingPaint\AmazingPaint.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -21,5 +22,8 @@
     <QtMoc Include="..\AmazingPaint\MainWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AmazingPaint\AmazingPaint.h" />
   </ItemGroup>
 </Project>
