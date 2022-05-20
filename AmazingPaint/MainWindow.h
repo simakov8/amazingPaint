@@ -1,7 +1,6 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
-#include <QMenuBar>
 
 class CMainWindow : public QMainWindow
 {

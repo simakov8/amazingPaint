@@ -1,11 +1,6 @@
 #include "MainWindow.h"
-#include <QtCore/QVariant>
-#include <QtWidgets/QApplication>
-#include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
-#include <QtWidgets/QStatusBar>
-#include <QtWidgets/QToolBar>
-#include <QtWidgets/QWidget>
+#include <QMenuBar>
+#include <QToolBar>
 
 CMainWindow::CMainWindow(QWidget* parent)
 	: QMainWindow(parent), m_mainWindowMenuBar(nullptr), m_sceneManipulatorsToolBar(nullptr)
