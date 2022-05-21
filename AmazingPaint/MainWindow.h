@@ -1,7 +1,6 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
-#include <QMenuBar>
 
 class CMainWindow : public QMainWindow
 {
@@ -9,13 +8,4 @@ class CMainWindow : public QMainWindow
 
 public:
 	CMainWindow(QWidget* parent = Q_NULLPTR);
-
-private:
-	void CreateMenuBar();
-	void CreateManipulatorsToolBar();
-
-private:
-	QToolBar* m_sceneManipulatorsToolBar;
-	QMenuBar* m_mainWindowMenuBar;
-
 };
