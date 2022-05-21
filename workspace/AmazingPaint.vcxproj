@@ -92,7 +92,7 @@
   <ItemGroup>
     <ClCompile Include="..\AmazingPaint\AmazingPaint.cpp" />
     <ClCompile Include="..\AmazingPaint\MainWindow.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\AmazingPaint\MainWindow.h" />

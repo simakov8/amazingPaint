@@ -1,5 +1,5 @@
 #include <QtWidgets/QApplication>
-#include "../AmazingPaint/AmazingPaint.h"
+#include "AmazingPaint/AmazingPaint.h"
 
 int main(int argc, char* argv[])
 {
