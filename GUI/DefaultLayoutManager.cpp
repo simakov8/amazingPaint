@@ -6,8 +6,8 @@ void CDefaultLayoutManager::InstantiateMainWindow(CMainWindow& mainWindow, const
 {
 	mainWindow.setMinimumSize(QSize{ 700, 500 });
 
-	CreateMenuBar(mainWindow);
-	CreateToolBar(mainWindow);
+	CreateMenuBar(mainWindow, styleSheetCreator);
+	CreateToolBar(mainWindow, styleSheetCreator);
 
 	mainWindow.showMaximized();
 }
