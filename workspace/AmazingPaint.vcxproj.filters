@@ -8,6 +8,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\GUI\DefaultLayoutManager.cpp">
+      <Filter>GUI\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GUI\LayoutManager.cpp">
+      <Filter>GUI\Layout</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -19,6 +25,9 @@
     <Filter Include="GUI">
       <UniqueIdentifier>{a84db70e-bbdb-4a47-bf22-da7508b545ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GUI\Layout">
+      <UniqueIdentifier>{072f6ec4-bb3c-4b56-943f-16b2d4b7ca3b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\AmazingPaint\MainWindow.h">
@@ -28,6 +37,12 @@
   <ItemGroup>
     <ClInclude Include="..\AmazingPaint\AmazingPaint.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GUI\DefaultLayoutManager.h">
+      <Filter>GUI\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GUI\LayoutManager.h">
+      <Filter>GUI\Layout</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

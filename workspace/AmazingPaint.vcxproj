@@ -92,6 +92,8 @@
   <ItemGroup>
     <ClCompile Include="..\AmazingPaint\AmazingPaint.cpp" />
     <ClCompile Include="..\AmazingPaint\MainWindow.cpp" />
+    <ClCompile Include="..\GUI\DefaultLayoutManager.cpp" />
+    <ClCompile Include="..\GUI\LayoutManager.cpp" />
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +101,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AmazingPaint\AmazingPaint.h" />
+    <ClInclude Include="..\GUI\DefaultLayoutManager.h" />
+    <ClInclude Include="..\GUI\LayoutManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
