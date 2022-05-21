@@ -2,7 +2,7 @@
 #include <QMenuBar>
 #include <QToolBar>
 
-void CDefaultLayoutManager::InstantiateMainWindow(CMainWindow& mainWindow) const
+void CDefaultLayoutManager::InstantiateMainWindow(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
 	mainWindow.setMinimumSize(QSize{ 700, 500 });
 
@@ -12,7 +12,7 @@ void CDefaultLayoutManager::InstantiateMainWindow(CMainWindow& mainWindow) const
 	mainWindow.showMaximized();
 }
 
-void CDefaultLayoutManager::CreateMenuBar(CMainWindow& mainWindow) const
+void CDefaultLayoutManager::CreateMenuBar(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
 	auto menuBarPtr = new QMenuBar{ &mainWindow };
 
@@ -24,7 +24,7 @@ void CDefaultLayoutManager::CreateMenuBar(CMainWindow& mainWindow) const
 	mainWindow.setMenuBar(menuBarPtr);
 }
 
-void CDefaultLayoutManager::CreateToolBar(CMainWindow& mainWindow) const
+void CDefaultLayoutManager::CreateToolBar(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
 	auto toolBarPtr = new QToolBar{ &mainWindow };
 	
@@ -35,14 +35,14 @@ void CDefaultLayoutManager::CreateToolBar(CMainWindow& mainWindow) const
 	mainWindow.addToolBar(toolBarPtr);
 }
 
-void CDefaultLayoutManager::CreateStatusBar(CMainWindow& mainWindow) const
+void CDefaultLayoutManager::CreateStatusBar(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
 }
 
-void CDefaultLayoutManager::CreateDockWidget(CMainWindow& mainWindow) const
+void CDefaultLayoutManager::CreateDockWidget(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
 }
 
-void CDefaultLayoutManager::CreateCentralWidget(CMainWindow& mainWindow) const
+void CDefaultLayoutManager::CreateCentralWidget(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
 }

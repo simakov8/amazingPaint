@@ -14,6 +14,9 @@
     <ClCompile Include="..\GUI\LayoutManager.cpp">
       <Filter>GUI\Layout</Filter>
     </ClCompile>
+    <ClCompile Include="..\GUI\StyleSheetCreator.cpp">
+      <Filter>GUI\Styles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -27,6 +30,9 @@
     </Filter>
     <Filter Include="GUI\Layout">
       <UniqueIdentifier>{072f6ec4-bb3c-4b56-943f-16b2d4b7ca3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Styles">
+      <UniqueIdentifier>{c2966464-c564-47a0-8ebd-db95384002a6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="..\GUI\LayoutManager.h">
       <Filter>GUI\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GUI\StyleSheetCreator.h">
+      <Filter>GUI\Styles</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

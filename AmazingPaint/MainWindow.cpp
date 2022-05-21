@@ -4,6 +4,6 @@
 CMainWindow::CMainWindow(QWidget* parent)
 	: QMainWindow(parent)
 {
-	CDefaultLayoutManager manager;
-	manager.InstantiateMainWindow(*this);
+	CDefaultLayoutManager layoutManager;
+	layoutManager.InstantiateMainWindow(*this);
 }
