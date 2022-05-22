@@ -1,5 +1,7 @@
 #pragma once
 
+class IGraphicalLayout;
+
 class IManipulator
 {
 public:

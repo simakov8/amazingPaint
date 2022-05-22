@@ -2,8 +2,9 @@
 
 #include <QPen>
 #include <QBrush>
-#include "GraphicalLayoutElement.h"
-#include "GraphicalWindow.h"
+
+class IGraphicalLayoutElement;
+class IGraphicalWindow;
 
 class IPainter
 {
