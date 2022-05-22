@@ -1,12 +1,14 @@
 #pragma once
 
+#include <QWidget>
 #include <QRect>
 #include <QPolygon>
 #include <QPen>
 #include <QBrush>
 #include "GraphicalLayout.h"
 
-class IGraphicalWindow
+// interface inheritance for opportunity to display window from GUI
+class IGraphicalWindow : public QWidget
 {
 public:
 	virtual ~IGraphicalWindow() = default;
