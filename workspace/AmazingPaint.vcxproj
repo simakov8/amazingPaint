@@ -102,6 +102,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AmazingPaint\AmazingPaint.h" />
+    <ClInclude Include="..\Graphics\GraphicalLayout.h" />
+    <ClInclude Include="..\Graphics\GraphicalLayoutElement.h" />
+    <ClInclude Include="..\Graphics\GraphicalElement.h" />
+    <ClInclude Include="..\Graphics\GraphicalWindow.h" />
+    <ClInclude Include="..\Graphics\Manipulator.h" />
+    <ClInclude Include="..\Graphics\Painter.h" />
     <ClInclude Include="..\GUI\DefaultLayoutManager.h" />
     <ClInclude Include="..\GUI\LayoutManager.h" />
     <ClInclude Include="..\GUI\StyleSheetCreator.h" />
