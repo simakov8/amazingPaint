@@ -5,6 +5,8 @@
 class CStyleSheetCreator
 {
 public:
+	virtual ~CStyleSheetCreator() = default;
+
 	virtual QString GetPushButtonStyle() const;
 	
 	// TODO:
