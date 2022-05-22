@@ -77,5 +77,8 @@
     <ClInclude Include="..\Graphics\Painter.h">
       <Filter>Graphics\Interfaces</Filter>
     </ClInclude>
+    <ClInclude Include="..\Graphics\GraphicalTool.h">
+      <Filter>Graphics\Interfaces</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
