@@ -15,4 +15,5 @@ public:
 	// remove raw pointer returning and think of std::shared_ptr
 	// ownership conflict with QObject Lifetime management
 	virtual IGraphicalElement* GetGraphicalElement() const = 0;
+	virtual void SetGraphicalElement(IGraphicalElement* element) const = 0;
 };

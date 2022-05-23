@@ -1,12 +1,15 @@
 #pragma once
 
+#include <QWidget>
 #include <QRect>
 #include <QPolygon>
 #include <QPen>
 #include <QBrush>
-#include "GraphicalLayout.h"
+#include "../AmazingPaint/Document.h"
 
-class IGraphicalWindow
+
+// interface inheritance for opportunity to display window from GUI
+class IGraphicalWindow : public QWidget
 {
 public:
 	virtual ~IGraphicalWindow() = default;
@@ -14,8 +17,8 @@ public:
 	// TODO:
 	// remove raw pointer getting and think of std::shared_ptr
 	// ownership conflict with QObject Lifetime management
-	virtual void SetGraphicalLayout(IGraphicalLayout* layout) = 0;
-	virtual IGraphicalLayout* GetGraphicalLayout() const = 0;
+	virtual void SetDocument(CDocument* document) = 0;
+	virtual CDocument& GetDocument() const = 0;
 
 protected:
 	virtual void DrawRectangle(const QRect& rect, const QPen& pen = QPen(), const QBrush& = QBrush()) = 0;
