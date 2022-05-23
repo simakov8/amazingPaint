@@ -91,6 +91,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\AmazingPaint\AmazingPaint.cpp" />
+    <ClCompile Include="..\AmazingPaint\Document.cpp" />
     <ClCompile Include="..\AmazingPaint\MainWindow.cpp" />
     <ClCompile Include="..\GUI\DefaultLayoutManager.cpp" />
     <ClCompile Include="..\GUI\LayoutManager.cpp" />
@@ -102,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AmazingPaint\AmazingPaint.h" />
+    <ClInclude Include="..\AmazingPaint\Document.h" />
     <ClInclude Include="..\Graphics\GraphicalLayout.h" />
     <ClInclude Include="..\Graphics\GraphicalLayoutElement.h" />
     <ClInclude Include="..\Graphics\GraphicalElement.h" />

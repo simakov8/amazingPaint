@@ -17,6 +17,9 @@
     <ClCompile Include="..\GUI\StyleSheetCreator.cpp">
       <Filter>GUI\Styles</Filter>
     </ClCompile>
+    <ClCompile Include="..\AmazingPaint\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -79,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="..\Graphics\GraphicalTool.h">
       <Filter>Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmazingPaint\Document.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
