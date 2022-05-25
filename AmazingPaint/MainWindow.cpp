@@ -8,3 +8,8 @@ CMainWindow::CMainWindow(QWidget* parent)
 	CStyleSheetCreator styleSheetCreator;
 	layoutManager.InstantiateMainWindow(*this, styleSheetCreator);
 }
+
+void CMainWindow::OnFileCreate()
+{
+		
+}

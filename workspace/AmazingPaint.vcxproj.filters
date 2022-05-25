@@ -20,6 +20,18 @@
     <ClCompile Include="..\AmazingPaint\Document.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Graphics\BaseGraphicalWindow.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\BaseGraphicalLayout.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\BaseGraphicalLayoutElement.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\BaseGraphicalElement.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -85,6 +97,18 @@
     </ClInclude>
     <ClInclude Include="..\AmazingPaint\Document.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\BaseGraphicalWindow.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\BaseGraphicalLayout.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\BaseGraphicalLayoutElement.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\BaseGraphicalElement.h">
+      <Filter>Graphics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

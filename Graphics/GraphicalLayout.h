@@ -13,7 +13,7 @@ public:
 	virtual void AddGraphicalLayoutElement(IGraphicalLayoutElement* element) = 0;
 	virtual void RemoveGraphicalLayoutElement(IGraphicalLayoutElement* element) = 0;
 
-	virtual IGraphicalLayoutElement& GetGraphicalLayoutElement(const QPoint& point) const = 0;
+	virtual IGraphicalLayoutElement* GetGraphicalLayoutElement(const QPoint& point) const = 0;
 	virtual QList<IGraphicalLayoutElement*> GetGraphicalLayoutElements() const = 0;
 
 	// virtual XMLrepresentation GetXmlRepresentation() const = 0;

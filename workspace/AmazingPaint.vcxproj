@@ -93,6 +93,10 @@
     <ClCompile Include="..\AmazingPaint\AmazingPaint.cpp" />
     <ClCompile Include="..\AmazingPaint\Document.cpp" />
     <ClCompile Include="..\AmazingPaint\MainWindow.cpp" />
+    <ClCompile Include="..\Graphics\BaseGraphicalElement.cpp" />
+    <ClCompile Include="..\Graphics\BaseGraphicalLayout.cpp" />
+    <ClCompile Include="..\Graphics\BaseGraphicalWindow.cpp" />
+    <ClCompile Include="..\Graphics\BaseGraphicalLayoutElement.cpp" />
     <ClCompile Include="..\GUI\DefaultLayoutManager.cpp" />
     <ClCompile Include="..\GUI\LayoutManager.cpp" />
     <ClCompile Include="..\GUI\StyleSheetCreator.cpp" />
@@ -104,6 +108,10 @@
   <ItemGroup>
     <ClInclude Include="..\AmazingPaint\AmazingPaint.h" />
     <ClInclude Include="..\AmazingPaint\Document.h" />
+    <ClInclude Include="..\Graphics\BaseGraphicalElement.h" />
+    <ClInclude Include="..\Graphics\BaseGraphicalLayout.h" />
+    <ClInclude Include="..\Graphics\BaseGraphicalWindow.h" />
+    <ClInclude Include="..\Graphics\BaseGraphicalLayoutElement.h" />
     <ClInclude Include="..\Graphics\GraphicalLayout.h" />
     <ClInclude Include="..\Graphics\GraphicalLayoutElement.h" />
     <ClInclude Include="..\Graphics\GraphicalElement.h" />

@@ -1,8 +1,10 @@
 #pragma once
 
 #include <QPoint>
-#include "GraphicalElement.h"
+#include "BaseGraphicalElement.h"
 
+// IGraphicalLayoutElement contains CBaseGraphicalElement*
+// but does not manage its lifetime. IGraphicalLayout responsible for it
 class IGraphicalLayoutElement
 {
 public:
@@ -14,6 +16,5 @@ public:
 	// TODO:
 	// remove raw pointer returning and think of std::shared_ptr
 	// ownership conflict with QObject Lifetime management
-	virtual IGraphicalElement* GetGraphicalElement() const = 0;
-	virtual void SetGraphicalElement(IGraphicalElement* element) const = 0;
+	virtual CBaseGraphicalElement* GetGraphicalElement() const = 0;
 };
