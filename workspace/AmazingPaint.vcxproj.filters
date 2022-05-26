@@ -17,9 +17,6 @@
     <ClCompile Include="..\GUI\StyleSheetCreator.cpp">
       <Filter>GUI\Styles</Filter>
     </ClCompile>
-    <ClCompile Include="..\AmazingPaint\Document.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -36,12 +33,6 @@
     </Filter>
     <Filter Include="GUI\Styles">
       <UniqueIdentifier>{c2966464-c564-47a0-8ebd-db95384002a6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Graphics">
-      <UniqueIdentifier>{1ded657c-27c0-40ab-baeb-2083fc8570ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Graphics\Interfaces">
-      <UniqueIdentifier>{5f3a62cf-1f62-4991-8775-9baff6cbfd3d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -61,30 +52,6 @@
     </ClInclude>
     <ClInclude Include="..\GUI\StyleSheetCreator.h">
       <Filter>GUI\Styles</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\GraphicalLayout.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\GraphicalLayoutElement.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\GraphicalElement.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\GraphicalWindow.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\Manipulator.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\Painter.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Graphics\GraphicalTool.h">
-      <Filter>Graphics\Interfaces</Filter>
-    </ClInclude>
-    <ClInclude Include="..\AmazingPaint\Document.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
