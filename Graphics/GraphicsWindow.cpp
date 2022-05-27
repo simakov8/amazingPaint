@@ -1,6 +1,6 @@
 #include "GraphicsWindow.h"
 
-CGraphicsWindow::CGraphicsWindow(QWidget *parent, CDefaultGraphicsScene* draphicsScene = new CDefaultGraphicsScene{})
+CGraphicsWindow::CGraphicsWindow(QWidget *parent, CDefaultGraphicsScene* draphicsScene)
 	: QGraphicsView(parent),
 	m_graphicsScene(draphicsScene),
 	m_sceneRectRegulatorTimer(new QTimer{})
@@ -29,5 +29,5 @@ void CGraphicsWindow::resizeEvent(QResizeEvent* event)
 void CGraphicsWindow::regulateSceneRect()
 {
 	m_sceneRectRegulatorTimer->stop();
-	m_graphicsScene->setSceneRect(0, 0, width(), height());
+	m_graphicsScene->setSceneRect(0, 0, width() - 20, height() - 20);
 }

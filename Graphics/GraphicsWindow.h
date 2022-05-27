@@ -9,7 +9,7 @@ class CGraphicsWindow : public QGraphicsView
 	Q_OBJECT
 
 public:
-	CGraphicsWindow(QWidget* parent, CDefaultGraphicsScene* draphicsScene = new CDefaultGraphicsScene{});
+	CGraphicsWindow(QWidget* parent = nullptr, CDefaultGraphicsScene* draphicsScene = new CDefaultGraphicsScene{});
 	~CGraphicsWindow();
 
 protected:
