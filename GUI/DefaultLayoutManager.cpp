@@ -16,10 +16,8 @@ void CDefaultLayoutManager::CreateMenuBar(CMainWindow& mainWindow, const CStyleS
 {
 	auto menuBarPtr = new QMenuBar{ &mainWindow };
 
-	auto fileMenuPtr{ menuBarPtr->addMenu("File") };
-	fileMenuPtr->addAction("Save");
-	fileMenuPtr->addAction("Open");
-	fileMenuPtr->addAction("Create");
+	CreateFileMenu(menuBarPtr, mainWindow);
+
 
 	mainWindow.setMenuBar(menuBarPtr);
 }
@@ -45,4 +43,21 @@ void CDefaultLayoutManager::CreateDockWidget(CMainWindow& mainWindow, const CSty
 
 void CDefaultLayoutManager::CreateCentralWidget(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
 {
+}
+
+void CDefaultLayoutManager::CreateFileMenu(QMenuBar* menuBar, CMainWindow& mainWindow) const
+{
+	auto fileMenuPtr{ menuBar->addMenu("File") };
+
+	auto menuAction = fileMenuPtr->addAction("Save");
+	QObject::connect(menuAction, &QAction::triggered, &mainWindow, &CMainWindow::onFileSave);
+
+	menuAction = fileMenuPtr->addAction("Open");
+	QObject::connect(menuAction, &QAction::triggered, &mainWindow, &CMainWindow::onFileOpen);
+
+	menuAction = fileMenuPtr->addAction("Close");
+	QObject::connect(menuAction, &QAction::triggered, &mainWindow, &CMainWindow::onFileClose);
+
+	menuAction = fileMenuPtr->addAction("Create");
+	QObject::connect(menuAction, &QAction::triggered, &mainWindow, &CMainWindow::onFileCreate);
 }

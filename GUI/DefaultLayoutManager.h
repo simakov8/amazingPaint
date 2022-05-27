@@ -12,4 +12,8 @@ public:
 	void CreateStatusBar(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const override;
 	void CreateDockWidget(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const override;
 	void CreateCentralWidget(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const override;
+
+private:
+	void CreateFileMenu(QMenuBar* menuBar, CMainWindow& mainWindow) const;
+
 };

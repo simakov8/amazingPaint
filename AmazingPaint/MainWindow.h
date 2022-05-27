@@ -8,4 +8,10 @@ class CMainWindow : public QMainWindow
 
 public:
 	CMainWindow(QWidget* parent = Q_NULLPTR);
+
+public slots:
+	void onFileCreate();
+	void onFileSave();
+	void onFileOpen();
+	void onFileClose();
 };

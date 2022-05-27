@@ -9,3 +9,18 @@ CMainWindow::CMainWindow(QWidget* parent)
 
 	layoutManager.InstantiateMainWindow(*this, styleSheetCreator);
 }
+
+void CMainWindow::onFileCreate()
+{
+	CDefaultLayoutManager layoutManager;
+}
+
+void CMainWindow::onFileOpen()
+{
+
+}
+
+void CMainWindow::onFileClose()
+{
+
+}
