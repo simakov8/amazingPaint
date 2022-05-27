@@ -6,5 +6,6 @@ CMainWindow::CMainWindow(QWidget* parent)
 {
 	CDefaultLayoutManager layoutManager;
 	CStyleSheetCreator styleSheetCreator;
+
 	layoutManager.InstantiateMainWindow(*this, styleSheetCreator);
 }

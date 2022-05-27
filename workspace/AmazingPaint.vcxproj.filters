@@ -17,13 +17,23 @@
     <ClCompile Include="..\GUI\StyleSheetCreator.cpp">
       <Filter>GUI\Styles</Filter>
     </ClCompile>
+    <ClCompile Include="..\Graphics\GraphicsWindow.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\DefaultGraphicsScene.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{305f8fa4-2663-453b-b0ba-84a9d68d9c8f}</UniqueIdentifier>
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{8b7e6e45-de5d-4088-8638-bc7841d5ae5b}</UniqueIdentifier>
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
     </Filter>
     <Filter Include="GUI">
       <UniqueIdentifier>{a84db70e-bbdb-4a47-bf22-da7508b545ae}</UniqueIdentifier>
@@ -34,10 +44,19 @@
     <Filter Include="GUI\Styles">
       <UniqueIdentifier>{c2966464-c564-47a0-8ebd-db95384002a6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{23dd6c3d-88d0-4d75-9aff-5ab160171188}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\AmazingPaint\MainWindow.h">
       <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Graphics\GraphicsWindow.h">
+      <Filter>Graphics</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Graphics\DefaultGraphicsScene.h">
+      <Filter>Graphics</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
