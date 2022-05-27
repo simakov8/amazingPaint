@@ -61,6 +61,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\Graphics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
@@ -92,6 +98,8 @@
   <ItemGroup>
     <ClCompile Include="..\AmazingPaint\AmazingPaint.cpp" />
     <ClCompile Include="..\AmazingPaint\MainWindow.cpp" />
+    <ClCompile Include="..\Graphics\DefaultGraphicsScene.cpp" />
+    <ClCompile Include="..\Graphics\GraphicsWindow.cpp" />
     <ClCompile Include="..\GUI\DefaultLayoutManager.cpp" />
     <ClCompile Include="..\GUI\LayoutManager.cpp" />
     <ClCompile Include="..\GUI\StyleSheetCreator.cpp" />
@@ -102,6 +110,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AmazingPaint\AmazingPaint.h" />
+    <QtMoc Include="..\Graphics\GraphicsWindow.h" />
+    <QtMoc Include="..\Graphics\DefaultGraphicsScene.h" />
     <ClInclude Include="..\GUI\DefaultLayoutManager.h" />
     <ClInclude Include="..\GUI\LayoutManager.h" />
     <ClInclude Include="..\GUI\StyleSheetCreator.h" />

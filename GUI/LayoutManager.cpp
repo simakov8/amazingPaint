@@ -1,10 +1,10 @@
 #include "LayoutManager.h"
 
-void ILayoutManager::InstantiateMainWindow(CMainWindow& mainWindow, const CStyleSheetCreator& styleSheetCreator) const
+void ILayoutManager::InstantiateMainWindow(CMainWindow& mainWindow) const
 {
-	CreateMenuBar(mainWindow, styleSheetCreator);
-	CreateToolBar(mainWindow, styleSheetCreator);
-	CreateStatusBar(mainWindow, styleSheetCreator);
-	CreateDockWidget(mainWindow, styleSheetCreator);
-	CreateCentralWidget(mainWindow, styleSheetCreator);
+	CreateMenuBar(mainWindow);
+	CreateToolBar(mainWindow);
+	CreateStatusBar(mainWindow);
+	CreateDockWidget(mainWindow);
+	CreateCentralWidget(mainWindow);
 }
